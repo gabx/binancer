@@ -5,7 +5,7 @@ BINANCE <- list(
              'LIMIT_MAKER'),
     SIDE = c('BUY', 'SELL'),
     TIMEINFORCE = c('GTC', 'IOC', 'FOK'),
-    INTERVALS = c('1h', '1d')
+    INTERVALS = c('1h', '1d'),
     METHODS = c('GET', 'POST', 'PUT', 'DELETE')
 )
 
