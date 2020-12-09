@@ -191,12 +191,7 @@ binance_klines <- function(symbol, interval, limit, start_time, end_time) {
         'high',
         'low',
         'close',
-        'volume',
-        'close_time',
-        'quote_asset_volume',
-        'trades',
-        'taker_buy_base_asset_volume',
-        'taker_buy_quote_asset_volume'
+        'volume'
     )
 
     for (v in setdiff(names(klines), c('open_time', 'close_time', 'trades'))) {
